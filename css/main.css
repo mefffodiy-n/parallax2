@@ -11,6 +11,10 @@
     --transition: transform .75s cubic-bezier(.075, .500, 0, 1);
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 @font-face {
     font-family: raleway_f;
     src: url(../fonts/raleway-regular.woff2);
